@@ -1,0 +1,161 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+/*Common Class Start*/
+.container{
+    width : 90%;
+    margin-left : auto;
+    margin-right : auto;
+}
+.catagory{
+    display : flex;
+    height : 100px;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    height : 120px;
+}
+.btn{
+    width : 150px;
+    height : 40px;
+    border-radius : 6px;
+    font-family : Inter,sans-serif;
+    color : #FFFFFF;
+    background : linear-gradient(to right , #FF589B , #FF136F); 
+    border: none;
+    transition : ease-in 0.2s;
+    cursor : pointer;
+}
+.btn:hover{
+    background : white;
+    border : 2px solid #FF136F;
+    color : black;
+}
+/*Common Class End*/
+#Header{
+    height : 60px;
+    margin-top : 20px;
+    display : flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#hero-container{
+    height : 420px;
+    display : flex;
+    margin-top : 15px;
+    justify-content : space-between;
+    align-items : center;
+    border-radius : 7px;
+    background-color : #FEEAE9;
+}
+#hero-content{
+    width : 500px;
+    margin-left : 30px;
+    display : flex;
+    flex-direction : column;
+    gap : 10px;
+}
+#hero-content h1{
+    font-family : Poppins,sans-serif;
+}
+#hero-content p{
+    font-family : Inter,sans-serif;
+}
+#hero-content span{
+    font-family : Poppins,sans-serif;
+    font-weight : 500;
+    font-size : 33px;
+    color : #FF136F;
+    padding : 5px;
+}
+#hero-image{
+    margin-left : 20px;
+    margin-right : 20px;
+}
+#hero-image img{
+    width: 370px;
+    vertical-align : middle;
+}
+#catagory-container{
+    margin-top : 50px;
+}
+#catagory-container h1{
+    font-family : Poppins , sans-serif;
+    font-size : 30px;
+    font-weight : 500;
+    margin-bottom : 10px;
+}
+.catagory h2{
+    font-family : Poppins , sans-serif;
+    font-weight : 480;
+    margin-left : 10px;
+    color : #ffffff;
+}
+#Watch , #Bag , #Shoes{
+    width : 290px;
+    height : 110px;
+    border-radius : 7px;
+}
+#Watch{
+    background-color : #FF9C35;
+}
+#Bag{
+    background-color : #FF136F;
+}
+#Shoes{
+    background-color : #3F07F8;
+}
+.catagory img {
+    vertical-align : middle;
+    height : 91px;
+    margin-right : 6px;
+}
+footer{
+    margin-top : 50px;
+    height : 300px;
+    background-color : #FFF2F1;
+    margin-bottom : 10px;
+    border-radius : 10px;
+}
+#Email{
+    width : 500px;
+    margin-left : auto;
+    margin-right : auto;
+    position : relative;
+    top : 50%;
+    transform : translateY(-50%);
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    gap : 5px;
+}
+#Email h2{
+    font-family : Poppins , sans-serif;
+    font-size : 25px;
+}
+#Email p{
+    font-family : Poppins , sans-serif;
+    font-size : 16px;
+    color : #707070;
+    margin-bottom : 18px;
+}
+#Email form input {
+    height : 40px;
+    width : 400px;
+    border : none;
+    border-radius : 3px;
+}
+#Email form button{
+    width : 80px;
+    height : 40px;
+}
+input::placeholder{
+    font-family : Poppins ,sans-serif;
+    transform : translateX(10px);
+    font-weight : 400;
+    color : #CCCCCC;
+    padding : 4px 5px;
+}
